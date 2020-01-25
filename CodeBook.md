@@ -1,8 +1,9 @@
 # Code Book
 
-The "Grouped_Samsung_GS_Acc_AIAssignment.txt" is a dataframe with 180 observations and 88 variables.
+The "Grouped_Samsung_GS_Acc_AIAssignment.txt" is a dataframe with 180 "observations" and 88 variables.
+Each observation reports the mean for each variable, grouped by activity and subject.
 
-The first two variables are "activity" and "subject". 
+The first two variables are therefore "activity" and "subject". 
 
 ### Activity:
 WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
