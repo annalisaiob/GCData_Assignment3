@@ -77,37 +77,17 @@ Finally a Fast Fourier Transform (FFT) was applied to some of these signals prod
 These signals were used to estimate variables of the feature vector for each pattern:  
 '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
-tBodyAccXYZ
-tGravityAccXYZ
-tBodyAccJerkXYZ
-tBodyGyroXYZ
-tBodyGyroJerkXYZ
-tBodyAccMag
-tGravityAccMag
-tBodyAccJerkMag
-tBodyGyroMag
-tBodyGyroJerkMag
-fBodyAccXYZ
-fBodyAccJerkXYZ
-fBodyGyroXYZ
-fBodyAccMag
-fBodyAccJerkMag
-fBodyGyroMag
-fBodyGyroJerkMag
 
-The set of variables that were kept from these signals are: 
-
-Mean: Mean value
-Std: Standard deviation
+The set of variables that were kept from these signals are the Mean and Standard Deviation.
 
 The Angle between to vectors was also kept, as it contained a Mean.
 
 Additional vectors obtained by averaging the signals in a signal window sample. These are used on the angle() variable:
 
-gravityMean
-tBodyAccMean
-tBodyAccJerkMean
-tBodyGyroMean
-tBodyGyroJerkMean
+-gravityMean
+-tBodyAccMean
+-tBodyAccJerkMean
+-tBodyGyroMean
+-tBodyGyroJerkMean
 
 The complete list of variables of each feature vector is available in 'features.txt'
