@@ -22,7 +22,7 @@ The data itself can be found [here](https://d396qusza40orc.cloudfront.net/getdat
 - appends the two sets
 
 2. It then takes the "features.txt" file and finds, among those variable names, each name containing "mean/Mean" or "std". 
-The resulting vector, containing the positions of variable names containing those characters, is then used to select the corresponding columns.
+The resulting vector, containing the positions of variable names with those characters, is then used to select the corresponding columns.
 The "subject" and "activity" columns are also added.
 
 3. The "activity_labels.txt" is then joined to the dataframe, to give actual names to the activity column.
